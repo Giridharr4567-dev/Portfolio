@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Giridhar Reddy • Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="bg-overlay"></div>
+
+  <header>
+    <div class="brand">
+      <h1 class="title">PORTFOLIO</h1>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#tools">Tools</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#languages">Languages</a></li>
+        <li><a href="#certs">Certificates</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <button id="theme-toggle" aria-label="Toggle theme" title="Toggle light / dark">
+      <svg id="icon-sun" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
+        <path d="M6.76 4.84l-1.8-1.79L3.17 4.84l1.79 1.79 1.8-1.79zM1 13h3v-2H1v2zm10-9h2V1h-2v3zm7.03 2.05l1.79-1.79-1.79-1.79-1.79 1.79 1.79 1.79zM17 13h3v-2h-3v2zM12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm2.24 12.16l1.79 1.79 1.79-1.79-1.79-1.79-1.79 1.79zM4.24 19.16l1.79 1.79 1.79-1.79-1.79-1.79-1.79 1.79zM12 23h2v-3h-2v3z"/>
+      </svg>
+      <svg id="icon-moon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
+        <path d="M21.75 15.5A9 9 0 0 1 8.5 2.25 7.5 7.5 0 1 0 21.75 15.5z"/>
+      </svg>
+    </button>
+  </header>
+
+  <section class="hero">
+    <h2 class="hero-hi">Hello, I'm</h2>
+    <h3 class="hero-name">R Giridhar Reddy</h3>
+    <p class="hero-type"><span id="typed"></span><span class="cursor">|</span></p>
+    <a class="btn" href="#projects">View Projects</a>
+  </section>
+
+  <section id="about" class="section reveal">
+    <h2>About Me</h2>
+    <p class="about-text">
+      I am a passionate Computer Science professional with a strong background in cybersecurity, software development, and academic teaching.
+      Currently pursuing an integrated M.Tech in CSE (Cybersecurity) from VIT Bhopal, I have gained practical experience in VAPT, intrusion detection,
+      and secure system analysis through my internships.
+      <br><br>
+      I also served as a Junior Lecturer at Narayana PU College, where I taught 1st PUC Computer Science, conducted hands-on lab sessions, and helped
+      students strengthen their understanding of core programming and computing concepts.
+      <br><br>
+      My technical expertise spans Java, C++, MySQL, Linux, and a variety of cybersecurity tools, supported by academic projects involving honeypots
+      and multimedia encryption. I enjoy mentoring learners, breaking down complex ideas, and contributing meaningfully to both educational and technical
+      environments. With a continuous drive to grow, I aim to build a career that balances industry skills with impactful teaching and knowledge-sharing.
+    </p>
+  </section>
+
+  <section id="skills" class="section reveal">
+    <h2>Skills</h2>
+    <div class="grid">
+      <div class="chip">HTML</div>
+      <div class="chip">CSS</div>
+      <div class="chip">Java</div>
+      <div class="chip">C++</div>
+      <div class="chip">MySQL</div>
+      <div class="chip">Linux</div>
+    </div>
+  </section>
+
+  <section id="tools" class="section reveal">
+    <h2>Tools & Platforms</h2>
+    <h3 class="subhead">Cybersecurity Tools</h3>
+    <div class="grid">
+      <div class="chip">Burp Suite</div>
+      <div class="chip">Nikto</div>
+      <div class="chip">Nmap</div>
+      <div class="chip">Metasploit</div>
+      <div class="chip">Wireshark</div>
+      <div class="chip">John the Ripper</div>
+      <div class="chip">Autopsy</div>
+    </div>
+    <h3 class="subhead" style="margin-top:1rem;">Operating Systems</h3>
+    <div class="grid">
+      <div class="chip">Microsoft Windows</div>
+      <div class="chip">Kali Linux</div>
+      <div class="chip">Ubuntu</div>
+    </div>
+  </section>
+
+  <section id="projects" class="section reveal">
+    <h2>Projects</h2>
+    <div class="project-row">
+      <article class="project-card" tabindex="0">
+        <div class="project-head">
+          <h3>E-Commerce Platform for Farmers</h3>
+        </div>
+        <div class="project-desc">
+          <p>
+            A digital marketplace designed to help farmers connect directly with buyers without middlemen. The platform enables the sale and
+            purchase of seeds, fertilizers, crop plants, tractors, and other agricultural essentials. Built with a user-friendly interface,
+            it aims to support farmers by improving accessibility, reducing costs, and creating a more transparent supply chain.
+          </p>
+        </div>
+      </article>
+
+      <article class="project-card" tabindex="0">
+        <div class="project-head">
+          <h3>Encryption &amp; Decryption of Multimedia Data</h3>
+        </div>
+        <div class="project-desc">
+          <p>
+            Developed a secure Java-based system that protects multimedia files using advanced cryptographic techniques. The application supports
+            encryption and decryption of images, audio, and video to ensure data confidentiality and integrity. This project demonstrates strong
+            understanding of cryptography, secure data handling, and Java application development.
+          </p>
+        </div>
+      </article>
+
+      <article class="project-card" tabindex="0">
+        <div class="project-head">
+          <h3>Password Manager</h3>
+        </div>
+        <div class="project-desc">
+          <p>
+            Created a secure password vault that stores user credentials locally with encryption and master-password protection. The application
+            allows users to save website details, usernames, passwords, security questions, keys, and also provides edit and delete options. The
+            current version is a functional prototype for single-system use, with potential for future expansion into a multi-device or cloud-based
+            solution. This project highlights secure design thinking and user-focused application development.
+          </p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="hobbies" class="section reveal">
+    <h2>Hobbies</h2>
+    <div class="grid">
+      <div class="chip">Music</div>
+      <div class="chip">Video Games</div>
+      <div class="chip">Badminton</div>
+      <div class="chip">Trekking</div>
+    </div>
+  </section>
+
+  <section id="languages" class="section reveal">
+    <h2>Languages</h2>
+    <div class="grid">
+      <div class="chip">English</div>
+      <div class="chip">Kannada</div>
+      <div class="chip">Telugu</div>
+      <div class="chip">Hindi</div>
+      <div class="chip">Tamil</div>
+    </div>
+  </section>
+
+  <section id="certs" class="section reveal">
+    <h2>Certificates</h2>
+    <div class="cert-list">
+      <div class="cert">1. Introduction to Cybersecurity — CISCO, May 2023</div>
+      <div class="cert">2. Introduction to Network Analysis (Blue Team) — June 2024</div>
+      <div class="cert">3. Certified AppSec Practitioner — SecOps, June 2024</div>
+    </div>
+  </section>
+
+  <section id="contact" class="section reveal">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:Giridharr4567@gmail.com">Giridharr4567@gmail.com</a></p>
+    <p>Phone: <a href="tel:+918088950824">+91 80889 50824</a></p>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>© <span id="yr"></span> R Giridhar Reddy • Built with ♥ • <a href="#contact">Contact</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
